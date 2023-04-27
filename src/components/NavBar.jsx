@@ -10,6 +10,7 @@ import {
 import Dogs from '../pages/Dogs';
 import About from '../pages/About';
 import Home from '../pages/Home';
+import NotFound from '../pages/NotFound';
 
 
 
@@ -34,6 +35,8 @@ export default function NavBar() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/dogs" element={<Dogs/>}/>
           <Route exact path="/about" element={<About/>}/>
+          <Route exact path="*" element={<NotFound/>}/>
+
         </Routes>
       </div>
     </Router>
