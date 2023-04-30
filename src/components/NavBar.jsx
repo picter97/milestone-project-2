@@ -36,7 +36,6 @@ export default function NavBar() {
           <Route exact path="/dogs" element={<Dogs/>}/>
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="*" element={<NotFound/>}/>
-
         </Routes>
       </div>
     </Router>
