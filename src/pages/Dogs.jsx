@@ -19,7 +19,7 @@ export default function Dogs() {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href="/french">Go somewhere</Button>
             </Card.Body>
           </Card>
         </div>
@@ -33,7 +33,7 @@ export default function Dogs() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" href="german">Go somewhere</Button>
           </Card.Body>
         </Card>
         </div>
@@ -47,21 +47,21 @@ export default function Dogs() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" href="Golden">Go somewhere</Button>
           </Card.Body>
           </Card>
         </div>
 
           <div className="d-flex justify-content-around card mb-3 mx-2 mt-auto">
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" href="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Labrador</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href="labrador">Go somewhere</Button>
             </Card.Body>
             </Card>
           </div>
@@ -75,7 +75,7 @@ export default function Dogs() {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href="poodle">Go somewhere</Button>
             </Card.Body>
           </Card>
         </div>

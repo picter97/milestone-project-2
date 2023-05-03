@@ -1,13 +1,13 @@
 
 import './App.css';
-import Dogs from './pages/Dogs';
+import NavBar from './components/NavBar';
 
 function App() {
 
   
    return (
      <div>
-       <Dogs/>
+       <NavBar/>
      </div>
    );
  }
