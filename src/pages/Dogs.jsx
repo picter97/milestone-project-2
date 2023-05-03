@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 export default function Dogs() {
   return (
+<<<<<<< HEAD
     <div>
       
       <div class="d-flex flex-wrap d-inline-flex ">
@@ -83,5 +84,8 @@ export default function Dogs() {
 
     </div>
       
+=======
+    <div>this is Dogs </div>
+>>>>>>> 2c132c13ea0e3d8f0ff7debe3870125b6e216124
   )
 }
