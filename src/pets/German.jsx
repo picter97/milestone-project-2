@@ -9,7 +9,26 @@ export default function German() {
           <h1>German Shepherd</h1>
           <img src={IMAGES.GS} alt='German-dog'/>
         </div>
-        <div> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, laborum omnis iure adipisci delectus quod veniam earum facilis similique molestiae consectetur accusantium, error dignissimos inventore vel officiis nam! Doloribus, nulla.</div>
+        <div> 
+          <p>
+          Generally considered dogkind's finest all-purpose worker, the German Shepherd Dog is a large, agile, muscular dog of noble character and high intelligence. Loyal, confident, courageous, and steady, the German Shepherd is truly a dog lover's delight. German Shepherd Dogs can stand as high as 26 inches at the shoulder and, when viewed in outline, presents a picture of smooth, graceful curves rather than angles. The natural gait is a free-and-easy trot, but they can turn it up a notch or two and reach great speeds. There are many reasons why German Shepherds stand in the front rank of canine royalty, but experts say their defining attribute is character: loyalty, courage, confidence, the ability to learn commands for many tasks, and the willingness to put their life on the line in defense of loved ones. German Shepherds will be gentle family pets and steadfast guardians, but, the breed standard says, there's a 'certain aloofness that does not lend itself to immediate and indiscriminate friendships
+          </p>
+        </div>
+      </div>
+      <div id='info-dog'>
+        <div>
+          <h2>height</h2>
+          <p>height</p>
+        </div>
+        <div>
+          <h2>weigh</h2>
+          <p>weigh</p>
+        </div>
+        <div>
+          <h2>life expectancy</h2>
+          <p>24-26 in Male</p>
+          <p>22-24 in Female</p>
+        </div>
       </div>
     </div>
   )

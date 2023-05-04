@@ -10,6 +10,20 @@ export default function Poodle() {
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum obcaecati minus molestiae. Fugit repudiandae, expedita eaque commodi, eveniet eum quae nemo, obcaecati aliquid sunt iusto officiis laudantium est praesentium.</p>
       </div>
+      <div id='info-dog'>
+        <div>
+          <h2>height</h2>
+          <p>height</p>
+        </div>
+        <div>
+          <h2>weigh</h2>
+          <p>weigh</p>
+        </div>
+        <div>
+          <h2>life expectancy</h2>
+          <p>life expectancy</p>
+        </div>
+      </div>
     </div>
   )
 }
