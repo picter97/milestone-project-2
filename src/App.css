@@ -6,3 +6,7 @@ cards-cell{
   display: flex;
   flex-direction: row;
 }
+
+#labrador-cell{
+  display:inline-block,
+}
