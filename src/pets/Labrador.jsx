@@ -12,7 +12,8 @@ export default function Labrador() {
         </div>
         <div>
           <h1>About breed</h1>
-          <p>The sweet-faced, lovable Labrador Retriever is America's most popular dog breed.
+          <p id='p-cell'>
+            The sweet-faced, lovable Labrador Retriever is America's most popular dog breed.
             Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to 
             go around for a family looking for a medium-to-large dog. The sturdy, well-balanced Labrador Retriever can
             , depending on the sex, stand from 21.5 to 24.5 inches at the shoulder and weigh between 55 to 80 pounds.

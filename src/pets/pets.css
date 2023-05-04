@@ -2,15 +2,21 @@
 h1{
   text-align: center;
   font-family: sans-serif;
+  padding-top: 20px;
 }
 
 p{
   color: rgb(54, 54, 54);
+  font-size: 20px;
   font-family: sans-serif;
   text-align: center;
+  
+}
+#p-cell{
+  padding-top: 5em;
 }
 #dogs-card-cell div {
-  justify-content: space-around;
+
   padding-left: 20px;
 }
 #info-dog{
@@ -33,44 +39,36 @@ p{
  align-content: center;
 }
 #german-cell{
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
   align-content: center;
  }
 #golden-cell{
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
   align-content: center;
  }
 #labrador-cell{
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
   align-content: center;
  }
 #poodle-cell{
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
   align-content: center;
  }
 
-#french-cell img{
-  height: 40em;
-  width: auto;
- }
 #german-cell img{
   height: 50em;
   width: auto;
  }
-#golden-cell img{
- height: 40em;
-  width: auto;
- }
-#labrador-cell img{
-  height: 40em;
-  width: auto;
- }
 
-#poodle-cell img{
-  height: 40em;
-  width: auto;
- }
