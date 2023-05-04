@@ -11,8 +11,11 @@ import Dogs from '../pages/Dogs';
 import About from '../pages/About';
 import Home from '../pages/Home';
 import NotFound from '../pages/NotFound';
-
-
+import French from '../pets/French';
+import German from '../pets/German';
+import Golden from '../pets/Golden';
+import Labrador from '../pets/Labrador';
+import Poodle from '../pets/Poodle';
 
 export default function NavBar() {
   return (
@@ -35,8 +38,12 @@ export default function NavBar() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/dogs" element={<Dogs/>}/>
           <Route exact path="/about" element={<About/>}/>
+          <Route exact path="/french" element={<French/>}/>
+          <Route exact path="/german" element={<German/>}/>
+          <Route exact path="/golden" element={<Golden/>}/>
+          <Route exact path="/labrador" element={<Labrador/>}/>
+          <Route exact path="/poodle" element={<Poodle/>}/>
           <Route exact path="*" element={<NotFound/>}/>
-
         </Routes>
       </div>
     </Router>
