@@ -1,11 +1,11 @@
 import React from 'react'
-
+import IMAGES from '../IMAGES/images';
 export default function About() {
   return (
     <div>
       <header style={{ backgroundColor: '#333', color: 'white', textAlign: 'center', padding: '20px', marginBottom: '20px' }}>
         <h1>ALL ABOUT US</h1>
-        <img alt=""></img>
+        <img src={IMAGES.about}></img>
       </header>
       <p>
       Welcome to our about page where we'll introduce you to some of the most beloved dog breeds: the French Bulldog, Labrador Retriever, Golden Retriever, German Shepherd, and Poodle. 
