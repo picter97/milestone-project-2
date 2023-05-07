@@ -1,3 +1,23 @@
+# Mile stone project 2 
+
+## Participants: Picter, Diana, Andrew
+
+# about:this project
+
+in this project you can find our most preferred dogs breeds there
+
+#### Routes
+
+| /Home |  /Dogs  | /About | 
+| :---:   | :---: | :---:  
+| displays home page  | displays all dogs and will take you to all dogs page  | displays the about page   |
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
