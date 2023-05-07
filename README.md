@@ -1,3 +1,28 @@
+# Mile stone project 2 
+
+## Participants: Picter, Diana, Andrew
+
+# About this project
+
+we'll introduce you to some of the most beloved dog breeds: the French Bulldog, Labrador Retriever, Golden Retriever, German Shepherd, and Poodle. Each of these breeds has its unique characteristics, ranging from their size, lifespan, temperament, and overall personality. Whether you're a first-time dog owner or an experienced one, we're excited to share with you some fascinating facts about these furry friends. We hope you enjoy learning about these breeds and find the information here useful in making an informed decision when it comes to choosing a dog that's perfect for you and your family.
+
+#### Routes
+
+| / |  /Dogs  | /About | 
+| :---:   | :---: | :---:  
+| displays home page  | displays all dogs and will take you to all dogs page  | displays the about page   |
+
+| /french |  /german  | /golden | /labrador | /poodle |
+| :---:   | :---: | :---:  | :---:  | :---:  
+| displays french bulldog page  | displays german shepherd page | displays golden page   | displays labrador page  |  displays poodle page
+
+
+
+`this website stills in development since we are working on adding a comment section to each dog page`
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
