@@ -1,12 +1,14 @@
 import React from 'react'
-import IMAGES from '../IMAGES/images';
+import IMAGES from '../IMAGES/images'
+
 export default function About() {
   return (
     <div>
-      <header style={{ backgroundColor: '#333', color: 'white', textAlign: 'center', padding: '20px', marginBottom: '20px' }}>
+      <div>
+        
         <h1>ALL ABOUT US</h1>
-        <img src={IMAGES.about}></img>
-      </header>
+        <img src={IMAGES.about} alt='about-imgage'></img>
+      
       <p>
       Welcome to our about page where we'll introduce you to some of the most beloved dog breeds: the French Bulldog, Labrador Retriever, Golden Retriever, German Shepherd, and Poodle. 
       Each of these breeds has its unique characteristics, ranging from their size, lifespan, temperament, and overall personality. 
@@ -28,7 +30,7 @@ export default function About() {
         <h2>Our Vision</h2>
         <p>We envision a world where every dog is loved, respected, and given the care they need to thrive.</p>
       </div>
-      <div className="">
+      <div>
         <h2>Our Value's</h2>
       <ul>
       <li>Compassion and empathy for all dogs</li>
@@ -40,7 +42,7 @@ export default function About() {
       <div className="subheader">
         <h1>DOGS LIVE TO PLAY, NOW LET THEM PLAY TO LIVE !</h1>
       </div>
-     </div>
-
-  );
+    </div>
+    </div>
+  )
 }
