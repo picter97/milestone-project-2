@@ -17,13 +17,26 @@
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test-dev": "jest"
   },
+  "keywords": [
+    "PostgreSQL",
+    "DB",
+    "Express",
+    "Node"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -41,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  }
+    "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
