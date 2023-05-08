@@ -12,18 +12,6 @@ root.render(
   </React.StrictMode>
 );
 
-const dbConfig = require("./db.config.js");
-const Sequelize = require("sequelize");
-const sequelize = new Sequelize(dbConfig.commenttest2, dbConfig.Resnick1022, dbConfig.postgres, {
-  host: dbConfig.env.commenttest2.cgub1iw4kin1.us-east-1.rds.amazonaws.com
-  ,
-  dialect: dbConfig.dialect,
-  });
-
-const db = {};
-
-db.Sequelize = Sequelize;
-db.sequelize = sequelize;
 const db = require("./models");
 db.sequelize.authenticate().then(() => {
       console.log("Connected to the database!");
@@ -33,12 +21,8 @@ db.sequelize.authenticate().then(() => {
       process.exit();
     });
 
-// sync
 db.sequelize.sync()
 
-db.blog = require("./blog.model.js")(sequelize, Sequelize);
-
-module.exports = db;
   
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
