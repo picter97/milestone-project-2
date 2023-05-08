@@ -19,7 +19,9 @@
     "web-vitals": "^2.1.4"
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,6 +31,12 @@
     "dev": "nodemon server/index.js",
     "test-dev": "jest"
   },
+  "keywords": [
+    "PostgreSQL",
+    "DB",
+    "Express",
+    "Node"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
